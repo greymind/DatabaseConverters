@@ -47,6 +47,7 @@ namespace Greymind.Tools.SqlCeToJson
                     var item = new ExpandoObject();
 
                     Enumerable.Range(0, reader.FieldCount)
+                        .Skip(1)
                         .Select(i => new { Field = reader.GetName(i), Value = reader[i] })
                         .ToList()
                         .ForEach(data => ((IDictionary<string, Object>)item)[data.Field] = data.Value);
