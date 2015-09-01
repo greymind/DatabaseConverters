@@ -2,7 +2,7 @@
 A collection of tools to convert to and from various database formats.
 
 ## Converters
-1. Sql CE to CSV
+1. SQL CE to CSV
 
 ## Usage
 1. Open the project in your IDE
