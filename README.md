@@ -3,6 +3,7 @@ A collection of tools to convert to and from various database formats.
 
 ## Converters
 1. SQL CE to CSV
+2. SQL CE to JSON
 
 ## Usage
 1. Open the project in your IDE
